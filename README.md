@@ -45,7 +45,7 @@ Each project runs from a raw source to a tested, queryable output. Click a card 
 | **Data Analyst Intern**, Verizon<br><sub>May – Aug 2022</sub> | Churn prediction with scikit-learn, customer segmentation (K-means, DBSCAN) and A/B test analysis. |
 | **Business Data Analyst**, USC Auxiliary Services<br><sub>Feb 2022 – May 2023 · Los Angeles</sub> | Power BI dashboards and semantic models that cut weekly reporting time ~40%. |
 
-<sub>M.S. Electrical &amp; Computer Engineering, University of Southern California · B.Tech., Gujarat Technological University</sub>
+<sub>M.S. Electrical &amp; Computer Engineering, University of Southern California · B.E., Gujarat Technological University</sub>
 
 ## Right now
 
