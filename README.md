@@ -21,7 +21,7 @@ Each project runs from a raw source to a tested, queryable output. Click a card 
 </p>
 <p>
   <a href="https://github.com/devanshi4/market-pulse"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-market-pulse-dark.svg"><img src="assets/card-market-pulse-light.svg" alt="Market Pulse: CDC streaming with no lost or double-counted trades" width="390"></picture></a>
-  <a href="https://github.com/devanshi4/ecommerce-lakehouse-aws"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-lakehouse-dark.svg"><img src="assets/card-lakehouse-light.svg" alt="E-commerce Lakehouse on AWS: 5 gold tables in Athena" width="390"></picture></a>
+  <a href="https://github.com/devanshi4/ecommerce-lakehouse-aws"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-lakehouse-dark.svg"><img src="assets/card-lakehouse-light.svg" alt="E-commerce Lakehouse on AWS: 6 gold tables in Athena" width="390"></picture></a>
 </p>
 <p>
   <a href="https://github.com/devanshi4/weather-elt-snowflake"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-weather-dark.svg"><img src="assets/card-weather-light.svg" alt="Weather Data Platform: re-runnable ELT into a Snowflake star schema" width="390"></picture></a>
@@ -40,8 +40,9 @@ Each project runs from a raw source to a tested, queryable output. Click a card 
 
 | Role | Highlights |
 |---|---|
-| **Data Engineer**, Cloudify Technologies<br><sub>Jul 2024 – present · Remote</sub> | **Telecom:** local Llama 3.1 log classifier (~70 → ~20 categories, ~91% agreement) replacing a 400-line SQL rule; production dbt models on Snowflake; Oracle audit that found ~37K orphaned projects.<br>**Payments:** Spark ETL tuning that cut processing costs 40%; skew handling, Kafka + Structured Streaming pipelines, fraud features with ML engineers. |
+| **Data Engineer**, Cloudify Technologies<br><sub>Jul 2024 – present · Remote</sub> | **Telecom:** local Llama 3.1 log classifier (~70 → ~20 categories, ~91% agreement) replacing a 400-line SQL rule; production dbt models on Snowflake; Oracle audit that found ~37K orphaned projects.<br>**Payments:** data-skew handling for large PySpark ETL jobs; Kafka + Structured Streaming pipelines; fraud features with ML engineers. |
 | **Data Engineer**, Brillio<br><sub>Sep 2023 – Jul 2024 · Tampa</sub> | SQL health monitoring across 10,000+ telecom sites; reconciliation reports across 5+ source systems. |
+| **Data Analyst Intern**, Verizon<br><sub>May – Aug 2022</sub> | Churn prediction with scikit-learn, customer segmentation (K-means, DBSCAN) and A/B test analysis. |
 | **Business Data Analyst**, USC Auxiliary Services<br><sub>Feb 2022 – May 2023 · Los Angeles</sub> | Power BI dashboards and semantic models that cut weekly reporting time ~40%. |
 
 <sub>M.S. Electrical &amp; Computer Engineering, University of Southern California · B.Tech., Gujarat Technological University</sub>

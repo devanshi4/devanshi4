@@ -72,9 +72,9 @@
     <text x="336" y="417" class="lbl">Llama 3.1 log classifier</text>
   </g>
   <g class="rise" style="animation-delay:0.50s">
-    <text x="616" y="372" class="num">40%</text>
-    <text x="616" y="398" class="lbl">lower Spark processing</text>
-    <text x="616" y="417" class="lbl">costs after ETL tuning</text>
+    <text x="616" y="372" class="num">70→20</text>
+    <text x="616" y="398" class="lbl">error categories</text>
+    <text x="616" y="417" class="lbl">consolidated for the classifier</text>
   </g>
   <g class="rise" style="animation-delay:0.65s">
     <text x="896" y="372" class="num">10K+</text>

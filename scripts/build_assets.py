@@ -44,7 +44,7 @@ def write(name, theme, svg):
 STATS = [
     ("~37K", "orphaned projects found", "in an Oracle audit"),
     ("~91%", "agreement for a local", "Llama 3.1 log classifier"),
-    ("40%", "lower Spark processing", "costs after ETL tuning"),
+    ("70→20", "error categories", "consolidated for the classifier"),
     ("10K+", "telecom sites monitored", "for activation health"),
 ]
 
@@ -144,7 +144,7 @@ PROJECTS = [
     dict(slug="lakehouse", kind="Lakehouse on AWS", status=None,
          title="E-commerce Lakehouse",
          desc="Kinesis clickstream and daily batch orders move through bronze, silver and gold PySpark layers on S3.",
-         result="5 gold tables, queryable in Athena", stack=["Kinesis", "Lambda", "PySpark", "Glue", "Athena"]),
+         result="6 gold tables, queryable in Athena", stack=["Kinesis", "Lambda", "PySpark", "Glue", "Athena"]),
     dict(slug="weather", kind="Batch ELT", status=None,
          title="Weather Data Platform",
          desc="Lambda lands hourly weather in S3, Airflow loads Snowflake and dbt builds an incremental star schema.",
