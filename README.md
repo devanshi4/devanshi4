@@ -50,6 +50,6 @@ Each project runs from a raw source to a tested, queryable output. Click a card 
 
 - Building the **cell-site entity resolution** project module by module; Iceberg on S3 with EMR Serverless is next.
 - Open to **data engineering roles** in New York or remote. Email or LinkedIn is the fastest way to reach me.
-- Learning chess, mostly by losing. There's a mate-in-one puzzle on [my site](https://devanshi4.github.io/#appendix).
+- Outside work I'm learning chess (and mostly losing). My site has a one-move checkmate puzzle you can try in the [Off the clock](https://devanshi4.github.io/#appendix) section.
 
 
