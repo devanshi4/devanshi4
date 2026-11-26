@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="460" viewBox="0 0 1200 460" role="img" aria-labelledby="t d">
+  <title id="t">Devanshi Pandya, Data Engineer</title>
+  <desc id="d">Data engineer in New York who builds pipelines, dbt models and data-quality checks. Animated diagram of three source systems flowing through matching and tests into one trusted table.</desc>
+  <defs>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="1.5" cy="1.5" r="1.2" fill="#d1d9e0"/></pattern>
+    <linearGradient id="fade" x1="0" x2="1" y1="0" y2="0"><stop offset="0.35" stop-color="#ffffff" stop-opacity="1"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></linearGradient>
+    <clipPath id="card"><rect x="1" y="1" width="1198" height="458" rx="16"/></clipPath>
+  </defs>
+  <style>
+    text{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;fill:#0c0d12}
+    .mono{font-family:ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace}
+    .role{font-size:17px;fill:#59636e;font-weight:500}
+    .name{font-size:58px;font-weight:700;letter-spacing:-2.2px}
+    .tag{font-size:21px;fill:#59636e}
+    .tag tspan.hl{fill:#0c0d12;font-weight:600}
+    .num{font-size:32px;font-weight:700;letter-spacing:-1px}
+    .lbl{font-size:14px;fill:#59636e}
+    .node{fill:#f6f8fa;stroke:#d1d9e0;stroke-width:1.3}
+    .node.out{fill:#eef0fd;stroke:#3347e0}
+    .node.rev{fill:#fdf3e5;stroke:#b45309}
+    .nt{font-family:ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace;font-size:13px;fill:#0c0d12}
+    .ns{font-family:ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace;font-size:11px;fill:#818b98}
+    .edge{fill:none;stroke:#d1d9e0;stroke-width:2}
+    .flow{fill:none;stroke:#3347e0;stroke-width:2.2;stroke-linecap:round;stroke-dasharray:2 12;animation:flow 1.2s linear infinite}
+    .flow.rev{stroke:#b45309}
+    .open circle{fill:#1a7f37}
+    .open .ring{fill:none;stroke:#1a7f37;stroke-width:2;transform-origin:63px 50px;transform-box:view-box;animation:ping 2.4s ease-out infinite}
+    .glow{fill:none;stroke:#3347e0;stroke-width:2;opacity:0;animation:glow 2.8s ease-in-out infinite}
+    .rise{animation:rise .8s cubic-bezier(.2,.8,.2,1) both}
+    @keyframes flow{to{stroke-dashoffset:-28}}
+    @keyframes ping{0%{transform:scale(.6);opacity:.9}80%,100%{transform:scale(2.4);opacity:0}}
+    @keyframes glow{0%,100%{opacity:0}50%{opacity:.55}}
+    @keyframes rise{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+    @media (prefers-reduced-motion: reduce){.flow,.ring,.glow,.rise{animation:none}.glow{opacity:0}}
+  </style>
+  <g clip-path="url(#card)">
+    <rect width="1200" height="460" fill="#ffffff"/>
+    <rect x="600" width="600" height="320" fill="url(#dots)"/>
+    <rect x="560" width="260" height="320" fill="url(#fade)"/>
+  </g>
+  <rect x="1" y="1" width="1198" height="458" rx="16" fill="none" stroke="#d1d9e0"/>
+
+  <g class="open"><circle cx="63" cy="50" r="5"/><circle class="ring" cx="63" cy="50" r="5"/></g>
+  <text x="78" y="56" class="role">Data Engineer · New York, NY · open to data engineering roles</text>
+  <text x="54" y="132" class="name">Devanshi Pandya</text>
+  <text class="tag"><tspan x="56" y="182">I build the <tspan class="hl">pipelines, dbt models and data-quality</tspan></tspan><tspan x="56" y="211"><tspan class="hl">checks</tspan> that catch wrong data before anyone</tspan><tspan x="56" y="240">reports on it.</tspan></text>
+
+  <g transform="translate(700 40)">
+    <path class="edge" d="M150 30 C180 30 180 112 212 112"/><path class="flow" d="M150 30 C180 30 180 112 212 112"/>
+    <path class="edge" d="M150 124 L212 124"/><path class="flow" d="M150 124 L212 124" style="animation-delay:-.4s"/>
+    <path class="edge" d="M150 218 C180 218 180 136 212 136"/><path class="flow" d="M150 218 C180 218 180 136 212 136" style="animation-delay:-.8s"/>
+    <path class="edge" d="M320 116 C340 116 340 74 362 74"/><path class="flow" d="M320 116 C340 116 340 74 362 74"/>
+    <path class="edge" d="M320 132 C340 132 340 178 362 178"/><path class="flow rev" d="M320 132 C340 132 340 178 362 178"/>
+    <rect class="node" x="0" y="8" width="150" height="44" rx="8"/><text class="nt" x="14" y="27">inventory.csv</text><text class="ns" x="14" y="43">1 row per site</text>
+    <rect class="node" x="0" y="102" width="150" height="44" rx="8"/><text class="nt" x="14" y="121">rf_plan.json</text><text class="ns" x="14" y="137">per plan version</text>
+    <rect class="node" x="0" y="196" width="150" height="44" rx="8"/><text class="nt" x="14" y="215">field_ops.parquet</text><text class="ns" x="14" y="231">per work order</text>
+    <rect class="node" x="212" y="94" width="108" height="60" rx="8"/><text class="nt" x="226" y="119">match +</text><text class="nt" x="226" y="137">dbt tests</text>
+    <rect class="glow" x="358" y="48" width="132" height="52" rx="11"/>
+    <rect class="node out" x="362" y="52" width="124" height="44" rx="8"/><text class="nt" x="376" y="71">dim_site</text><text class="ns" x="376" y="87">24 canonical</text>
+    <rect class="node rev" x="362" y="160" width="124" height="36" rx="8"/><text class="nt" x="376" y="183">review_queue</text>
+  </g>
+
+  <line x1="56" x2="1144" y1="322" y2="322" stroke="#d1d9e0"/>
+  <g class="rise" style="animation-delay:0.20s">
+    <text x="56" y="372" class="num">~37K</text>
+    <text x="56" y="398" class="lbl">orphaned projects found</text>
+    <text x="56" y="417" class="lbl">in an Oracle audit</text>
+  </g>
+  <g class="rise" style="animation-delay:0.35s">
+    <text x="336" y="372" class="num">~91%</text>
+    <text x="336" y="398" class="lbl">agreement for a local</text>
+    <text x="336" y="417" class="lbl">Llama 3.1 log classifier</text>
+  </g>
+  <g class="rise" style="animation-delay:0.50s">
+    <text x="616" y="372" class="num">40%</text>
+    <text x="616" y="398" class="lbl">lower Spark processing</text>
+    <text x="616" y="417" class="lbl">costs after ETL tuning</text>
+  </g>
+  <g class="rise" style="animation-delay:0.65s">
+    <text x="896" y="372" class="num">10K+</text>
+    <text x="896" y="398" class="lbl">telecom sites monitored</text>
+    <text x="896" y="417" class="lbl">for activation health</text>
+  </g>
+</svg>
